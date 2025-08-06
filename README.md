@@ -75,10 +75,12 @@ We trained a **Decision Tree and Random Forest Classifier** using the processed 
 
 ## ✅ Model Evaluation
 
- model  precision    recall        F1  accuracy       auc
-0  decision tree cv   0.906504  0.999599  0.950767  0.948224  0.948367
-              model  precision  recall        F1  accuracy       auc
-0  random forest cv    0.94701     1.0  0.972776  0.972005  0.999905
+ ## 📈 Model Performance Comparison
+
+| Model             | Precision | Recall  | F1 Score | Accuracy | AUC      |
+|------------------|-----------|---------|----------|----------|----------|
+| Decision Tree CV | 0.9065    | 0.9996  | 0.9508   | 0.9482   | 0.9484   |
+| Random Forest CV | 0.9470    | 1.0000  | 0.9728   | 0.9720   | 0.9999   |
 
 
 
