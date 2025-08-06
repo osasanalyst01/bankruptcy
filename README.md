@@ -2,6 +2,8 @@
 
 The dataset consists of over 7,000 company-year observations, each containing detailed financial data for up to three years per company. Each company has a `status_label` that identifies whether it remained operational (`0 = alive`) or failed (`1 = bankrupt`).
 
+Start ups (less than three years) or companies we had less than three years of their financial data were not included in this project.
+
 Key features include:
 
 - 'current_assets','cost_of_goods_sold', depreciation_amort','ebitda','inventory', net_income','total_receivables', 'market_value', 'net_sales', 'total_assets','long_term_debt', 'ebit',
